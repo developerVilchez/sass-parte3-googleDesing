@@ -25,17 +25,17 @@ a {
 body {
   background: #fff;
   font-family: "Roboto", sans-serif !important;
-  color: #333; }
+  color: #424242; }
 
 a {
-  color: #333;
+  color: #212128;
   text-decoration: none; }
   a:hover {
-    color: #1a1a1a; }
+    color: #0a0a0c; }
 
 p, blockquote, li {
   font-size: 1em;
-  line-height: 1.5; }
+  line-height: 1.4; }
 
 p {
   margin: 0 0 1em 0; }
@@ -679,18 +679,56 @@ h6 {
   color: #585858; }
 
 .section-podcast {
-  color: #4c4c4c;
+  padding-bottom: 6em; }
+  .section-podcast__title {
+    color: #585858; }
+  .section-podcast__paragraph {
+    font-weight: 700; }
+  .section-podcast__note {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.875em; }
+
+#publications {
   padding-bottom: 6em; }
 
-.section-podcast__title {
-  color: #585858; }
+.section-publications-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .section-publications-header__link {
+    color: #4285F4; }
 
-.section-podcast__paragraph {
-  font-weight: 700; }
+.section-publications-article1__date {
+  font-family: "Roboto Mono", monospace; }
 
-.section-podcast__note {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 0.875em; }
+.section-publications-article2__date {
+  font-family: "Roboto Mono", monospace; }
+
+.section-publications-article3__date {
+  font-family: "Roboto Mono", monospace; }
+
+.section-publications-article4__date {
+  font-family: "Roboto Mono", monospace; }
+
+.section-publications-newsletter {
+  padding: 1em;
+  background-color: #e8e8e8; }
+  .section-publications-newsletter__img {
+    float: right; }
+  .section-publications-newsletter__paragraph {
+    margin-bottom: 0; }
+  .section-publications-newsletter__link {
+    color: #4285F4;
+    padding-right: 2em; }
 
 .modulo-divider__hr {
   border-color: #4285F4;
